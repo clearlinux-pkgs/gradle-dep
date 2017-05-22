@@ -1,7 +1,7 @@
 
 Name     : gradle-dep
 Version  : 3.5
-Release  : 4
+Release  : 5
 URL      : https://repo.gradle.org/gradle/libs-releases
 Source0 : https://repo.gradle.org/gradle/libs-releases/org/ow2/asm/asm-all/5.1/asm-all-5.1.pom
 Source1 : https://repo.gradle.org/gradle/libs-releases/org/ow2/asm/asm-parent/5.1/asm-parent-5.1.pom
@@ -368,7 +368,6 @@ Source361 : https://repo.gradle.org/gradle/libs-releases/xalan/serializer/2.7.1/
 Source362 : https://repo.gradle.org/gradle/libs-releases/itext/itext/2.0.8/itext-2.0.8.jar
 Source363 : https://repo.gradle.org/gradle/repo1-cache/jaxen/jaxen/1.1/jaxen-1.1.pom
 Source364 : https://repo.gradle.org/gradle/repo1-cache/jaxen/jaxen/1.1/jaxen-1.1.jar
-Source365 : jquery.min.pom
 Source366 : https://repo.gradle.org/gradle/libs-releases/com/typesafe/zinc/zinc/0.3.7/zinc-0.3.7.jar
 Source367 : https://repo.gradle.org/gradle/libs-releases/com/typesafe/zinc/zinc/0.3.7/zinc-0.3.7.pom
 Source368 : https://repo.gradle.org/gradle/libs-releases/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar
@@ -1034,7 +1033,6 @@ cp %{SOURCE362} %{buildroot}/usr/share/gradle/.m2/repository/itext/itext/2.0.8/i
 mkdir -p %{buildroot}/usr/share/gradle/.m2/repository/jaxen/jaxen/1.1/
 cp %{SOURCE363} %{buildroot}/usr/share/gradle/.m2/repository/jaxen/jaxen/1.1/jaxen-1.1.pom
 cp %{SOURCE364} %{buildroot}/usr/share/gradle/.m2/repository/jaxen/jaxen/1.1/jaxen-1.1.jar
-cp %{SOURCE365} %{buildroot}/usr/share/gradle/.m2/repository/jquery/jquery.min/1.11.0/jquery.min-1.11.0.pom
 cp %{SOURCE366} %{buildroot}/usr/share/gradle/.m2/repository/com/typesafe/zinc/zinc/0.3.7/zinc-0.3.7.jar
 cp %{SOURCE367} %{buildroot}/usr/share/gradle/.m2/repository/com/typesafe/zinc/zinc/0.3.7/zinc-0.3.7.pom
 mkdir -p %{buildroot}/usr/share/gradle/.m2/repository/org/mortbay/jetty/jetty/6.1.26/
@@ -1447,7 +1445,6 @@ cp %{SOURCE409} %{buildroot}/usr/share/gradle/.m2/repository/org/mortbay/jetty/j
 /usr/share/gradle/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.pom
 /usr/share/gradle/.m2/repository/xslthl/xslthl/2.0.1/xslthl-2.0.1.jar
 /usr/share/gradle/.m2/repository/xslthl/xslthl/2.0.1/xslthl-2.0.1.pom
-/usr/share/gradle/.m2/repository/jquery/jquery.min/1.11.0/jquery.min-1.11.0.pom
 /usr/share/gradle/.m2/repository/lato/bold-italic/6/bold-italic-6-HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf
 /usr/share/gradle/.m2/repository/lato/bold/6/bold-6-DvlFBScY1r-FMtZSYIYoYw.ttf
 /usr/share/gradle/.m2/repository/lato/regular-italic/6/regular-italic-6-LqowQDslGv4DmUBAfWa2Vw.ttf
