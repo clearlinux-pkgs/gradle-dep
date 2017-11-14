@@ -1,7 +1,7 @@
 
 Name     : gradle-dep
 Version  : 3.5
-Release  : 5
+Release  : 6
 URL      : https://repo.gradle.org/gradle/libs-releases
 Source0 : https://repo.gradle.org/gradle/libs-releases/org/ow2/asm/asm-all/5.1/asm-all-5.1.pom
 Source1 : https://repo.gradle.org/gradle/libs-releases/org/ow2/asm/asm-parent/5.1/asm-parent-5.1.pom
@@ -408,7 +408,6 @@ Source402 : https://repo.gradle.org/gradle/libs-releases/org/mortbay/jetty/jsp-a
 Source403 : https://repo.gradle.org/gradle/libs-releases/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.pom
 Source404 : https://repo.gradle.org/gradle/libs-releases/org/eclipse/jetty/jetty-parent/14/jetty-parent-14.pom
 Source405 : https://repo.gradle.org/gradle/libs-releases/org/apache/geronimo/genesis/config/config/1.1/config-1.1.pom
-Source406 : https://repo.gradle.org/gradle/libs-releases/org/apache/geronimo/genesis/genesis/1.1/genesis-1.1.jar
 Source407 : https://repo.gradle.org/gradle/libs-releases/org/apache/geronimo/genesis/genesis/1.1/genesis-1.1.pom
 Source408 : https://repo.gradle.org/gradle/libs-releases/org/mortbay/jetty/jetty-naming/6.1.26/jetty-naming-6.1.26.jar
 Source409 : https://repo.gradle.org/gradle/libs-releases/org/mortbay/jetty/jetty-naming/6.1.26/jetty-naming-6.1.26.pom
@@ -1079,7 +1078,6 @@ cp %{SOURCE404} %{buildroot}/usr/share/gradle/.m2/repository/org/eclipse/jetty/j
 mkdir -p %{buildroot}/usr/share/gradle/.m2/repository/org/apache/geronimo/genesis/config/config/1.1/
 cp %{SOURCE405} %{buildroot}/usr/share/gradle/.m2/repository/org/apache/geronimo/genesis/config/config/1.1/config-1.1.pom
 mkdir -p %{buildroot}/usr/share/gradle/.m2/repository/org/apache/geronimo/genesis/genesis/1.1/
-cp %{SOURCE406} %{buildroot}/usr/share/gradle/.m2/repository/org/apache/geronimo/genesis/genesis/1.1/genesis-1.1.jar
 cp %{SOURCE407} %{buildroot}/usr/share/gradle/.m2/repository/org/apache/geronimo/genesis/genesis/1.1/genesis-1.1.pom
 mkdir -p %{buildroot}/usr/share/gradle/.m2/repository/org/mortbay/jetty/jetty-naming/6.1.26/
 cp %{SOURCE408} %{buildroot}/usr/share/gradle/.m2/repository/org/mortbay/jetty/jetty-naming/6.1.26/jetty-naming-6.1.26.jar
@@ -1493,7 +1491,6 @@ cp %{SOURCE409} %{buildroot}/usr/share/gradle/.m2/repository/org/mortbay/jetty/j
 /usr/share/gradle/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.pom
 /usr/share/gradle/.m2/repository/org/eclipse/jetty/jetty-parent/14/jetty-parent-14.pom
 /usr/share/gradle/.m2/repository/org/apache/geronimo/genesis/config/config/1.1/config-1.1.pom
-/usr/share/gradle/.m2/repository/org/apache/geronimo/genesis/genesis/1.1/genesis-1.1.jar
 /usr/share/gradle/.m2/repository/org/apache/geronimo/genesis/genesis/1.1/genesis-1.1.pom
 /usr/share/gradle/.m2/repository/org/mortbay/jetty/jetty-naming/6.1.26/jetty-naming-6.1.26.jar
 /usr/share/gradle/.m2/repository/org/mortbay/jetty/jetty-naming/6.1.26/jetty-naming-6.1.26.pom
