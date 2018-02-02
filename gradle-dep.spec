@@ -1,7 +1,7 @@
 
 Name     : gradle-dep
 Version  : 3.5
-Release  : 6
+Release  : 7
 URL      : https://repo.gradle.org/gradle/libs-releases
 Source0 : https://repo.gradle.org/gradle/libs-releases/org/ow2/asm/asm-all/5.1/asm-all-5.1.pom
 Source1 : https://repo.gradle.org/gradle/libs-releases/org/ow2/asm/asm-parent/5.1/asm-parent-5.1.pom
