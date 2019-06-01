@@ -1,6 +1,6 @@
 Name     : gradle-dep
 Version  : 4.3.1
-Release  : 9
+Release  : 10
 URL      : https://repo.gradle.org/gradle/libs-releases
 Source0 : https://repo.gradle.org/gradle/libs-releases/org/asciidoctor/asciidoctor-gradle-plugin/1.5.3/asciidoctor-gradle-plugin-1.5.3.pom
 Source1 : https://repo.gradle.org/gradle/libs-releases/org/jsoup/jsoup/1.6.3/jsoup-1.6.3.pom
